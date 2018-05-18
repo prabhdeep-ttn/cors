@@ -1,8 +1,9 @@
 <sly data-sly-use.clientLib="/libs/granite/sightly/templates/clientlib.html" data-sly-call="${clientLib.js @ categories='cors.html'}"></sly>
 <div data-sly-use.model="cors-model.js" >
 	${properties['title']} <br/>
-    Server Response: <span id="${model.uuid}"></span>
+    AJAX Server Response: <span id="${model.uuid}"></span><br/>
     <script type="text/javascript"> 
-        requestUrl("${model.uuid @ context='scriptToken'}", "${properties['url'] @context='scriptString'}");
+        //TODO: Make a request to Server to print the response to the above span
     </script>
+    Image: <image src="${properties['img']}">
 </div>
