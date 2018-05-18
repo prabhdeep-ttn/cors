@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/cors" mode="update"/>
+    <filter root="/apps/sling" mode="update"/>
+    <filter root="/etc/designs/cors" mode="update"/>
+</workspaceFilter>

@@ -1,0 +1,2 @@
+#base=js
+cors-request.js
